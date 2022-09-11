@@ -4,7 +4,11 @@
 
 #include <time.h>
 
-/* more headers goes there */
+/**
+ * main - Prints a ransom number and states whether
+ * it is positive, negative, or zero
+ * Return 0;
+ */
 
 
 
@@ -25,15 +29,15 @@ int main(void)
 					/* your code goes there */
 if  (n > 0){ 
 	printf("%d",n);
-	printf("is positive\n");
+	printf(" is positive\n");
 }
 
 else if (n<0){ printf("%d",n);
-	printf("Is negative\n");
+	printf(" is negative\n");
 }
 
-else {
-	 printf("is negative\n");
+else {printf("%d",n);
+	 printf(" is zero\n");
 }
 
 return (0);
