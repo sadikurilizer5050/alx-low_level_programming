@@ -5,12 +5,11 @@
 #include <time.h>
 
 /**
-* Main - Prints a ransom number and states whether
+* main - Prints a ransom number and states whether
 * it is positive, negative, or zero
 *
-* Return: 0,
+* Return: 0
 */
-/* Main- the code start in main*/
 int main(void)
 
 { int n;
