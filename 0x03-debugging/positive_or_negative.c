@@ -10,22 +10,21 @@
 */
 void positive_or_negative(int i)
 {
-int n;
-		srand(time(0));
+/**		srand(time(0));
 
-				n = rand() - RAND_MAX / 2;
-
+				i = rand() - RAND_MAX / 2;
+*/
 					/* your code goes there */
-if (n > 0)
-{printf("%d", n);
+if (i > 0)
+{printf("%d", i);
 printf(" is positive\n");
 }
 else if (i < 0)
-{printf("%d", n);
+{printf("%d", i);
 printf(" is negative\n");
 }
 else
-{printf("%d", n);
+{printf("%d", i);
 printf(" is zero\n");
 }
 return;
