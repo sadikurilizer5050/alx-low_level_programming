@@ -1,1 +1,1 @@
-This is the root directory for Debugging Project
+This is the root folder for Debugging
